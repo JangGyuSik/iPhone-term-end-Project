@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		14D7A5D51FBA787300CEA4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7A5D41FBA787300CEA4D3 /* AppDelegate.swift */; };
-		14D7A5D71FBA787300CEA4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7A5D61FBA787300CEA4D3 /* ViewController.swift */; };
 		14D7A5DA1FBA787300CEA4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D7A5D81FBA787300CEA4D3 /* Main.storyboard */; };
 		14D7A5DC1FBA787300CEA4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7A5DB1FBA787300CEA4D3 /* Assets.xcassets */; };
 		14D7A5DF1FBA787300CEA4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D7A5DD1FBA787300CEA4D3 /* LaunchScreen.storyboard */; };
 		14D7A5EA1FBA787300CEA4D3 /* JGS_IphoneApp_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7A5E91FBA787300CEA4D3 /* JGS_IphoneApp_ProjectTests.swift */; };
 		14D7A5F51FBA787300CEA4D3 /* JGS_IphoneApp_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7A5F41FBA787300CEA4D3 /* JGS_IphoneApp_ProjectUITests.swift */; };
+		14D7A6041FBA789F00CEA4D3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D7A6031FBA789F00CEA4D3 /* MapKit.framework */; };
+		14D7A6081FBA7C0200CEA4D3 /* SingleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7A6071FBA7C0200CEA4D3 /* SingleMapViewController.swift */; };
+		14E7CFE01FC6988600484BD5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7A6091FBA817200CEA4D3 /* ListTableViewController.swift */; };
+		14E7CFE21FC6A60B00484BD5 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7CFE11FC6A60B00484BD5 /* TotalMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		14D7A5D11FBA787300CEA4D3 /* JGS_IphoneApp_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGS_IphoneApp_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D7A5D41FBA787300CEA4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14D7A5D61FBA787300CEA4D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14D7A5D91FBA787300CEA4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14D7A5DB1FBA787300CEA4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D7A5DE1FBA787300CEA4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		14D7A5F01FBA787300CEA4D3 /* JGS_IphoneApp_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGS_IphoneApp_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D7A5F41FBA787300CEA4D3 /* JGS_IphoneApp_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGS_IphoneApp_ProjectUITests.swift; sourceTree = "<group>"; };
 		14D7A5F61FBA787300CEA4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D7A6031FBA789F00CEA4D3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		14D7A6071FBA7C0200CEA4D3 /* SingleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SingleMapViewController.swift; path = ../SingleMapViewController.swift; sourceTree = "<group>"; };
+		14D7A6091FBA817200CEA4D3 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
+		14E7CFE11FC6A60B00484BD5 /* TotalMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D7A6041FBA789F00CEA4D3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				14D7A5E81FBA787300CEA4D3 /* JGS_IphoneApp_ProjectTests */,
 				14D7A5F31FBA787300CEA4D3 /* JGS_IphoneApp_ProjectUITests */,
 				14D7A5D21FBA787300CEA4D3 /* Products */,
+				14D7A6021FBA789F00CEA4D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +105,11 @@
 		14D7A5D31FBA787300CEA4D3 /* JGS_IphoneApp_Project */ = {
 			isa = PBXGroup;
 			children = (
+				14D7A6071FBA7C0200CEA4D3 /* SingleMapViewController.swift */,
+				14D7A6091FBA817200CEA4D3 /* ListTableViewController.swift */,
 				14D7A5D41FBA787300CEA4D3 /* AppDelegate.swift */,
-				14D7A5D61FBA787300CEA4D3 /* ViewController.swift */,
 				14D7A5D81FBA787300CEA4D3 /* Main.storyboard */,
+				14E7CFE11FC6A60B00484BD5 /* TotalMapViewController.swift */,
 				14D7A5DB1FBA787300CEA4D3 /* Assets.xcassets */,
 				14D7A5DD1FBA787300CEA4D3 /* LaunchScreen.storyboard */,
 				14D7A5E01FBA787300CEA4D3 /* Info.plist */,
@@ -123,6 +133,14 @@
 				14D7A5F61FBA787300CEA4D3 /* Info.plist */,
 			);
 			path = JGS_IphoneApp_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		14D7A6021FBA789F00CEA4D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14D7A6031FBA789F00CEA4D3 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D7A5D71FBA787300CEA4D3 /* ViewController.swift in Sources */,
+				14E7CFE21FC6A60B00484BD5 /* TotalMapViewController.swift in Sources */,
+				14E7CFE01FC6988600484BD5 /* ListTableViewController.swift in Sources */,
+				14D7A6081FBA7C0200CEA4D3 /* SingleMapViewController.swift in Sources */,
 				14D7A5D51FBA787300CEA4D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JGS_IphoneApp_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DoubleK.JGS-IphoneApp-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JGS_IphoneApp_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DoubleK.JGS-IphoneApp-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +527,7 @@
 				14D7A5FB1FBA787300CEA4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14D7A5FC1FBA787300CEA4D3 /* Build configuration list for PBXNativeTarget "JGS_IphoneApp_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +536,7 @@
 				14D7A5FE1FBA787300CEA4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14D7A5FF1FBA787300CEA4D3 /* Build configuration list for PBXNativeTarget "JGS_IphoneApp_ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +545,7 @@
 				14D7A6011FBA787300CEA4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
